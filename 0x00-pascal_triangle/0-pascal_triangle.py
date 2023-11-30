@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
-'''
-Returns an empty list if n <= 0
-'''
+"""_summary_
+    Returns:
+        _type_: _description_
+"""
 
 
 from typing import List
 
 
 def pascal_triangle(n: int) -> List[list]:
-    '''
-    Pascal triangle
-    '''
+    """_summary_
+
+    Args:
+        n (int): _description_
+
+    Returns:
+        List[list]: _description_
+    """
 
     if n <= 0:
         return []
