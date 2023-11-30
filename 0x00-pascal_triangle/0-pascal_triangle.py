@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+'''
+Returns an empty list if n <= 0
+'''
+
+
 from typing import List
 
 
@@ -6,6 +11,7 @@ def pascal_triangle(n: int) -> List[list]:
     '''
     Pascal triangle
     '''
+
     if n <= 0:
         return []
 
